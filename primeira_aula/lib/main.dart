@@ -90,7 +90,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
         floatingActionButton: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
+          
           children: <Widget>[
             FloatingActionButton(
               onPressed: _decrementar,
@@ -104,6 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ],
         ),
+        floatingActionButtonLocation:FloatingActionButtonLocation.centerFloat,
       ),
       theme: ThemeData(
         primaryColor: Colors.green
